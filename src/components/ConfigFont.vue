@@ -34,8 +34,8 @@
         <legend class="fieldset-legend">Font</legend>
         <div class="flex items-center">
             <select v-model="currentFont.name" class="select select-secondary select-sm me-4">
-                <option :value="undefined">Default</option>
-                <option v-for="font in fonts.availableFonts" :value="font">{{ font.split('.')[0] }}</option>
+                <option :value="undefined">Default sans-serif</option>
+                <option v-for="font in fonts.availableFonts" :value="font.source">{{ font.name }}</option>
             </select>
 
             <div class="size-8 rounded-full aspect-square me-2 grid grid-rows-2 overflow-clip btn-soft btn btn-xs">

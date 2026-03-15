@@ -3,17 +3,6 @@
     themes: all;
 }
 
-@font-face {
-    src: url("/fonts/PermanentMarker.ttf") format("truetype");
-    font-family: "Permanent Marker";
-    font-style: normal;
-    font-weight: normal;
-}
-
 html, body, #app {
     height: 100%;
-}
-
-.font-marker {
-    font-family: "Permanent Marker", sans-serif;
 }

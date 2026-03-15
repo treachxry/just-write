@@ -3,6 +3,13 @@
   "maximumSize": 72,
   "baseDirectory": "fonts/",
   "availableFonts": [
-    "OpenSans.ttf"
+    {
+      "name": "Default serif",
+      "source": "serif"
+    },
+    {
+      "name": "Default monospace",
+      "source": "monospace"
+    }
   ]
 }

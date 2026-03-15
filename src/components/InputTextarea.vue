@@ -4,7 +4,7 @@
     import { FontOptions } from "@/models/FontOptions.ts";
 
     const {font, rows} = defineProps<{
-        font: FontOptions,
+        font?: FontOptions,
         rows?: number
     }>();
 
@@ -12,10 +12,10 @@
         required: true
     });
 
-    const style = computed(() => ({
+    const style = computed(() => (font ? {
         fontSize: `${font.size}px`,
         fontFamily: font.name
-    }));
+    } : {}));
 
     const {textarea, triggerResize} = useTextareaAutosize({
         input: value,

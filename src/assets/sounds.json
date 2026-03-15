@@ -1,6 +1,6 @@
 {
   "typing": {
-    "baseDirectory": "sounds/typing/",
+    "baseDirectory": "just-write/sounds/typing/",
     "files": [
       {
         "path": "keypress-neutral.mp3",
