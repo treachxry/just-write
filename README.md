@@ -10,17 +10,6 @@ Simple web-based application for distraction-free writing.
 
 ## Planned features
 
-Additions
-- Track progress by time (graph view, average speed)
 - Start stopwatch or timer
-
-Minor functionality
-- Blur or redact already written text
-- Forbid copy paste
-
-Customization
-- Font switching
-- Background images
-- Upload custom sounds
-- Upload custom fonts
+- Redact already written text
 - Ambient sound
